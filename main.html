@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<!-- bin/jquery.slider.min.css -->
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.css" type="text/css">
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.blue.css" type="text/css">
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.plastic.css" type="text/css">
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.round.css" type="text/css">
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.round.plastic.css" type="text/css">
+		<link href="js/vendor/fotorama/fotorama.css" rel="stylesheet">
+		<link href="css/style-plugin.css" rel="stylesheet">
+		<link href="css/all.css" rel="stylesheet">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<header role="banner">
+  <div class="top-header">
+    <div class="container">
+      <ul class="list-inline pull-left">
+        <li><a href="#" class="icon-vk icon-large"></a></li>
+        <li><a href="#" class="icon-google-plus-sign icon-large"></a></li>
+        <li><a href="#" class="icon-twitter icon-large"></a></li>
+        <li><a href="#" class="icon-facebook icon-large"></a></li>
+        <li><a href="#" class="icon-linkedin icon-large"></a></li>
+      </ul>
+      <span class="pull-right blr"><strong><a href="cart.html"> &nbsp 3 товара <i class="icon-shopping-cart "></i> &nbsp</a> </strong></span>
+      <ul class="list-inline pull-right">
+        <li><a href="checkout.html" class="icon-arrow-right"> Checkout</a></li>
+        <li><a href="my-account.html" class="icon-lock"> My Account</a></li>
+      </ul>
+    </div>
+    <hr>
+  </div>
+  <div class="middle-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 middle-header-left">
+          <h3>Brand</h3>
+          <div class="row">
+            <div class="input-group col-md-8">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="icon-search"></i></button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <br class="hidden-md hidden-lg">
+        <div class="col-md-8 middle-header-right">
+          <div class="row">
+            <div class="col-md-4 col-sm-4">
+              <div class="media">
+                <div class="media-object pull-left">
+                  <i class="icon-group"></i>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">7 миллиардов</h4>
+                  <span>Жителей (2011 год)</span>
+                </div>
+              </div>
+            </div>
+            <br class="hidden-sm hidden-md hidden-lg">
+            <div class="col-md-4 col-sm-4">
+              <div class="media">
+                <div class="media-object pull-left">
+                  <i class="icon-leaf"></i>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">8,7 миллионов</h4>
+                  <span>Видов существ</span>
+                </div>
+              </div>
+            </div>
+            <br class="hidden-sm hidden-md hidden-lg">
+            <div class="col-md-4 col-sm-4">
+              <div class="media">
+                <div class="media-object pull-left">
+                  <i class="icon-globe"></i>
+                </div>  
+                <div class="media-body">
+                  <h4 class="media-heading">510 000 ²</h4>
+                  <span>Метров поверхности</span>
+                </div>
+              </div>
+            </div>
+            <br class="hidden-sm hidden-md hidden-lg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-header">
+    <div class="container visible-lg visible-md hidden-xs hidden-sm">
+      <hr class="hr-menu">
+      <ul class="nav nav-pills pull-left">
+        <li><a href="main.html">Home</a></li>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Columns <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="shop-3cols.html">Shop-3cols</a></li>
+            <li><a href="shop-4cols.html">Shop-4cols</a></li>
+            <li><a href="shop-6cols.html">Shop-6cols</a></li>
+            <li><a href="shop-4cols-list.html">Shop-list</a></li>
+            <li><a href="grid.html">Grid</a></li>
+          </ul>
+        </li>
+        <li><a href="item.html">Item</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="checkout.html">Сheckout</a></li>
+        <li><a href="my-account.html">My-account</a></li>
+        <li><a href="elements.html">Elements</a></li>
+      </ul>
+      <ul class="nav nav-pills pull-right">     
+        <li><a href="#">Link</a></li>
+      </ul>
+      <hr class="hr-menu-2">
+    </div>
+    <br class="hidden-md hidden-lg">
+    <div class="container visible-xs visible-sm hidden-md hidden-lg">
+      <select class="form-control">
+        <option><a href="main.html">Home</a></option>
+        <option><a href="shop-4cols.html">Shop-4cols</a></option>
+        <option><a href="item.html">Item</a></option>
+        <option><a href="cart.html">Cart</a></option>
+        <option><a href="contacts.html">Contacts</a></option>
+        <option><a href="checkout.html">Сheckout</a></option>
+        <option><a href="my-account.html">My-account</a></option>
+        <option><a href="elements.html">Elements</a></option>
+      </select>
+    </div>
+    <br class="hidden-md hidden-lg">
+  </div>
+</header>
+
+		<main role="main">
+			<div class="container">
+				<div class="row">
+					<article class="col-md-9">
+  <div class="thumbnail">
+    <div class="fotorama" data-width="100%" data-ratio="200/80">
+      <div>
+        <img src="http://placekitten.com/g/840/330">
+        <div class="fotorama-text">Lorem ipsum dolor sit amet</div>
+      </div>
+      <div>
+        <img src="http://placekitten.com/g/840/330">
+        <div class="fotorama-text">Excepteur sint occaecat</div>
+      </div>
+      <div>
+        <img src="http://placekitten.com/g/840/330">
+        <div class="fotorama-text">Duis aute irure dolor</div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="block-header">
+  <h4>Последние купленные</h4>
+  <hr>
+</div>
+<div class="row last-content-block-elements">
+  <div class="col-md-3 col-sm-6 col-xs-6">
+    <a href="item.html" class="thumbnail item-mini-decore">
+  <div class="text-center">
+    <p><img src="http://placekitten.com/g/200/200"></p>
+    <hr>
+    <p>Skinny Chinos</p>
+    <p>
+      <span class="old-price"> 499 </span>
+      <span class="price text-success">$ 399</span>
+    </p>
+  </div>
+</a>
+<br>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6">
+    <a href="item.html" class="thumbnail item-mini-decore">
+  <div class="text-center">
+    <p><img src="http://placekitten.com/g/200/200"></p>
+    <hr>
+    <p>Skinny Chinos</p>
+    <p>
+      <span class="old-price"> 499 </span>
+      <span class="price text-success">$ 399</span>
+    </p>
+  </div>
+</a>
+<br>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6">
+    <a href="item.html" class="thumbnail item-mini-decore">
+  <div class="text-center">
+    <p><img src="http://placekitten.com/g/200/200"></p>
+    <hr>
+    <p>Skinny Chinos</p>
+    <p>
+      <span class="old-price"> 499 </span>
+      <span class="price text-success">$ 399</span>
+    </p>
+  </div>
+</a>
+<br>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6">
+    <a href="item.html" class="thumbnail item-mini-decore">
+  <div class="text-center">
+    <p><img src="http://placekitten.com/g/200/200"></p>
+    <hr>
+    <p>Skinny Chinos</p>
+    <p>
+      <span class="old-price"> 499 </span>
+      <span class="price text-success">$ 399</span>
+    </p>
+  </div>
+</a>
+<br>
+
+  </div>
+</div>
+<a href="#"><h5>Показать все товары</h5></a>
+  <br>
+  <div class="block-header">
+  <h4>Последние купленные</h4>
+  <hr>
+</div>
+<div class="row last-content-block-elements">
+  <div class="col-md-3 col-sm-6 col-xs-6">
+    <a href="item.html" class="thumbnail item-mini-decore">
+  <div class="text-center">
+    <p><img src="http://placekitten.com/g/200/200"></p>
+    <hr>
+    <p>Skinny Chinos</p>
+    <p>
+      <span class="old-price"> 499 </span>
+      <span class="price text-success">$ 399</span>
+    </p>
+  </div>
+</a>
+<br>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6">
+    <a href="item.html" class="thumbnail item-mini-decore">
+  <div class="text-center">
+    <p><img src="http://placekitten.com/g/200/200"></p>
+    <hr>
+    <p>Skinny Chinos</p>
+    <p>
+      <span class="old-price"> 499 </span>
+      <span class="price text-success">$ 399</span>
+    </p>
+  </div>
+</a>
+<br>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6">
+    <a href="item.html" class="thumbnail item-mini-decore">
+  <div class="text-center">
+    <p><img src="http://placekitten.com/g/200/200"></p>
+    <hr>
+    <p>Skinny Chinos</p>
+    <p>
+      <span class="old-price"> 499 </span>
+      <span class="price text-success">$ 399</span>
+    </p>
+  </div>
+</a>
+<br>
+
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6">
+    <a href="item.html" class="thumbnail item-mini-decore">
+  <div class="text-center">
+    <p><img src="http://placekitten.com/g/200/200"></p>
+    <hr>
+    <p>Skinny Chinos</p>
+    <p>
+      <span class="old-price"> 499 </span>
+      <span class="price text-success">$ 399</span>
+    </p>
+  </div>
+</a>
+<br>
+
+  </div>
+</div>
+<a href="#"><h5>Показать все товары</h5></a>
+</article>
+
+<aside class="col-md-3">
+  <ul class="list-group categories-list">
+  <li class="list-group-item"><i class="icon-angle-right"></i><a href="#"> Cras justo odio</a></li>
+  <li class="list-group-item"><i class="icon-angle-right"></i><a href="#"> Dapibus ac facilisis in</a></li>
+  <li class="list-group-item"><i class="icon-angle-right"></i><a href="#"> Morbi leo risus</a></li>
+  <li class="list-group-item"><i class="icon-angle-right"></i><a href="#"> Porta ac consectetur ac</a></li>
+  <li class="list-group-item"><i class="icon-angle-right"></i><a href="#"> Vestibulum at eros</a></li>
+</ul>
+  <br class="hidden-sm visible-md visible-lg">
+  <div class="row">
+    <div class="col-md-12 col-sm-6">
+      <div class="new-content-block">
+  <div class="block-header">
+    <h4>Новые товары</h4>
+    <hr>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Уголь древесный</a>
+      </div>
+      $ 4800.89
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Холодильник обратный</a>
+      </div>
+      $ 29.99
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Контейнер алюминиевый</a>
+      </div>
+      $ 189.22
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Сварочные электроды</a>
+      </div>
+      $ 18.11
+    </div>
+  </div>
+  <br>
+  <button class="btn btn-sm btn-default"><i class="icon-arrow-right"></i> Смотреть все товары</button>
+</div>
+      <br class="margin-div hidden-sm visible-md visible-lg">
+    </div>
+    <div class="col-md-12 col-sm-6">
+      <div class="new-content-block">
+  <div class="block-header">
+    <h4>Лучшие товары</h4>
+    <hr>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Тросы стальные</a>
+      </div>
+      $ 4800.89
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Ветрянные генераторы</a>
+      </div>
+      $ 29.99
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Счетчик СА4У</a>
+      </div>
+      $ 189.22
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Сварочные электроды</a>
+      </div>
+      $ 18.11
+    </div>
+  </div>
+  <br>
+  <button class="btn btn-sm btn-default"><i class="icon-arrow-right"></i> Смотреть все товары</button>
+</div>
+    </div>
+  </div>
+</aside>
+				</div>
+			</div>
+		</main>
+		<footer role="contentinfo">
+  <div class="container">
+    <div class="row top-footer">
+      <div class="col-md-3 col-sm-6 contacts-f bl">
+        <div class="block-header">
+          <h5>Контакты</h5>
+        </div>
+        <ul class="list-unstyled">
+          <li><i class="icon-phone-sign"> + (373) 780 57 092</i></li>
+          <li><i class="icon-envelope-alt"> magazin@gmail.com</i></li>
+        </ul>
+      </div>
+      <br class="hidden-sm hidden-md hidden-lg">
+      <div class="col-md-3 col-sm-6 categories-f bl">
+        <div class="block-header">
+          <h5>Категории</h5>
+        </div>
+        <ul class="list-unstyled">
+          <li><i class="icon-angle-right"></i> <a href="#">История Земли</a></li>
+          <li><i class="icon-angle-right"></i> <a href="#">Возникновение жизни</a></li>
+          <li><i class="icon-angle-right"></i> <a href="#">Строение Земли</a></li>
+          <li><i class="icon-angle-right"></i> <a href="#">Орбита и вращение Земли</a></li>
+          <li><i class="icon-angle-right"></i> <a href="#">Роль в культуре</a></li>
+        </ul>
+      </div>
+      <br class="hidden-sm hidden-md hidden-lg">
+      <div class="col-md-3 col-sm-6 tags-f bl">
+        <div class="block-header">
+          <h5>Теги</h5>
+        </div>
+        <a href="#"><span class="badge">Земля</span></a>
+        <a href="#"><span class="badge">Планта</span></a>
+        <a href="#"><span class="badge">Люди</span></a>
+        <a href="#"><span class="badge">Жизнь</span></a>
+        <a href="#"><span class="badge">Строение</span></a>
+        <a href="#"><span class="badge">Зарождение</span></a>
+        <a href="#"><span class="badge">Смерть</span></a>
+        <a href="#"><span class="badge">Смерть</span></a>
+        <a href="#"><span class="badge">Смерть</span></a>
+        <a href="#"><span class="badge">Смерть</span></a>
+      </div>
+      <br class="hidden-sm hidden-md hidden-lg">
+      <div class="col-md-3 col-sm-6 posts-f bl">
+        <div class="block-header">
+          <h5>Посты</h5>
+        </div>
+        <div class="media">
+          <div class="media-object pull-left">
+            <i class="icon-twitter"></i>
+          </div>
+          <div class="media-body">
+            <div class="media-heading">
+            </div>
+            @twitteruser Vivamus elit libero, tempus eu dictum at, suscipit id tellus.
+            <h6>about 5 hours ago</h6>
+          </div>
+        </div>
+      </div>
+      <br class="hidden-md hidden-lg">
+    </div>
+  </div>
+</footer>
+	</body>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/vendor/modernizr.js"></script>
+	<script src="js/vendor/polyfill/flexie.js"></script>
+	<script src="js/vendor/fotorama/fotorama.js"></script>
+	<script src="js/vendor/jquery.menu-aim.js"></script>
+	<script src="js/vendor/spinner.js"></script>
+	<!-- bin/jquery.slider.min.js -->
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/jshashtable-2.1_src.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/jquery.numberformatter-1.2.3.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/tmpl.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/jquery.dependClass-0.1.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/draggable-0.1.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/jquery.slider.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/all.js"></script>
+</html>

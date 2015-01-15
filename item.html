@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<!-- bin/jquery.slider.min.css -->
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.css" type="text/css">
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.blue.css" type="text/css">
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.plastic.css" type="text/css">
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.round.css" type="text/css">
+		<link rel="stylesheet" href="js/vendor/egorkhmelev-jslider/css/jslider.round.plastic.css" type="text/css">
+		<link href="js/vendor/fotorama/fotorama.css" rel="stylesheet">
+		<link href="css/style-plugin.css" rel="stylesheet">
+		<link href="css/all.css" rel="stylesheet">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<header role="banner">
+  <div class="top-header">
+    <div class="container">
+      <ul class="list-inline pull-left">
+        <li><a href="#" class="icon-vk icon-large"></a></li>
+        <li><a href="#" class="icon-google-plus-sign icon-large"></a></li>
+        <li><a href="#" class="icon-twitter icon-large"></a></li>
+        <li><a href="#" class="icon-facebook icon-large"></a></li>
+        <li><a href="#" class="icon-linkedin icon-large"></a></li>
+      </ul>
+      <span class="pull-right blr"><strong><a href="cart.html"> &nbsp 3 товара <i class="icon-shopping-cart "></i> &nbsp</a> </strong></span>
+      <ul class="list-inline pull-right">
+        <li><a href="checkout.html" class="icon-arrow-right"> Checkout</a></li>
+        <li><a href="my-account.html" class="icon-lock"> My Account</a></li>
+      </ul>
+    </div>
+    <hr>
+  </div>
+  <div class="middle-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 middle-header-left">
+          <h3>Brand</h3>
+          <div class="row">
+            <div class="input-group col-md-8">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="icon-search"></i></button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <br class="hidden-md hidden-lg">
+        <div class="col-md-8 middle-header-right">
+          <div class="row">
+            <div class="col-md-4 col-sm-4">
+              <div class="media">
+                <div class="media-object pull-left">
+                  <i class="icon-group"></i>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">7 миллиардов</h4>
+                  <span>Жителей (2011 год)</span>
+                </div>
+              </div>
+            </div>
+            <br class="hidden-sm hidden-md hidden-lg">
+            <div class="col-md-4 col-sm-4">
+              <div class="media">
+                <div class="media-object pull-left">
+                  <i class="icon-leaf"></i>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">8,7 миллионов</h4>
+                  <span>Видов существ</span>
+                </div>
+              </div>
+            </div>
+            <br class="hidden-sm hidden-md hidden-lg">
+            <div class="col-md-4 col-sm-4">
+              <div class="media">
+                <div class="media-object pull-left">
+                  <i class="icon-globe"></i>
+                </div>  
+                <div class="media-body">
+                  <h4 class="media-heading">510 000 ²</h4>
+                  <span>Метров поверхности</span>
+                </div>
+              </div>
+            </div>
+            <br class="hidden-sm hidden-md hidden-lg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-header">
+    <div class="container visible-lg visible-md hidden-xs hidden-sm">
+      <hr class="hr-menu">
+      <ul class="nav nav-pills pull-left">
+        <li><a href="main.html">Home</a></li>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Columns <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="shop-3cols.html">Shop-3cols</a></li>
+            <li><a href="shop-4cols.html">Shop-4cols</a></li>
+            <li><a href="shop-6cols.html">Shop-6cols</a></li>
+            <li><a href="shop-4cols-list.html">Shop-list</a></li>
+            <li><a href="grid.html">Grid</a></li>
+          </ul>
+        </li>
+        <li><a href="item.html">Item</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+        <li><a href="checkout.html">Сheckout</a></li>
+        <li><a href="my-account.html">My-account</a></li>
+        <li><a href="elements.html">Elements</a></li>
+      </ul>
+      <ul class="nav nav-pills pull-right">     
+        <li><a href="#">Link</a></li>
+      </ul>
+      <hr class="hr-menu-2">
+    </div>
+    <br class="hidden-md hidden-lg">
+    <div class="container visible-xs visible-sm hidden-md hidden-lg">
+      <select class="form-control">
+        <option><a href="main.html">Home</a></option>
+        <option><a href="shop-4cols.html">Shop-4cols</a></option>
+        <option><a href="item.html">Item</a></option>
+        <option><a href="cart.html">Cart</a></option>
+        <option><a href="contacts.html">Contacts</a></option>
+        <option><a href="checkout.html">Сheckout</a></option>
+        <option><a href="my-account.html">My-account</a></option>
+        <option><a href="elements.html">Elements</a></option>
+      </select>
+    </div>
+    <br class="hidden-md hidden-lg">
+  </div>
+</header>
+
+		<main role="main">
+			<div class="container">
+				<div class="row">
+					<article class="col-md-9">
+  <div class="block-header">
+    <h3>Земля — третья от Солнца планета.</h3>
+    <hr>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <div class="fotorama" data-width="100%" data-ratio="200/150">
+          <div>
+            <img class="img-slider-width" src="http://placekitten.com/g/400/300">
+          </div>
+          <div>
+            <img class="img-slider-width" src="http://placekitten.com/g/400/300">
+          </div>
+          <div>
+            <img class="img-slider-width" src="http://placekitten.com/g/400/300">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <span class="price">$ 14.99</span> <span class="old-price">$ 19.99</span>
+      <div class="item-info">
+        <ul class="list-unstyled">
+          <li class="text-success"><i class="icon-ok-circle"></i> Есть в наличии</li>
+        </ul>
+      </div>
+      <br>
+      <p>
+        Земля́ — третья от Солнца планета. Пятая по размеру среди всех планет Солнечной системы. Она является также крупнейшей по диаметру, массе и плотности среди планет земной группы.
+      </p>
+      <p>
+        Единственное известное человеку на данный момент тело Солнечной системы в частности и Вселенной вообще, населённое живыми организмами.
+      </p>
+      <form role="form">
+        <div class="form-group">
+          <label for="#">Количество:</label>
+          <div class="spinner" data-mod="1">
+            <input type="text" class="input-mini spinner-input form-control">
+            <div class="spinner-buttons btn-group-xs btn-group-vertical">
+              <button type="button" class="btn spinner-up">
+                <i class="icon-chevron-up"></i>
+              </button>
+              <button type="button" class="btn spinner-down">
+                <i class="icon-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-default"><i class="icon-plus-sign-alt"></i> Добавить в корзину</button>
+      </form> 
+    </div>
+  </div>
+  <br>
+  <br>
+  <ul id="myTab" class="nav nav-tabs">
+    <li class="active"><a href="#features" data-toggle="tab"><i class="icon-cog"></i> Характеристики</a></li>
+    <li class=""><a href="#description" data-toggle="tab"><i class="icon-pencil"></i> Описание</a></li>
+    <li class=""><a href="#reviews" data-toggle="tab"><i class="icon-comments"></i> Отзывы</a></li>
+  </ul>
+  <div id="myTabContent" class="tab-content">
+    <div class="tab-pane fade active in" id="features">
+      <br>
+      <p>
+        Существует ряд гипотез возникновения жизни на Земле. Около 3,5—3,8 млрд лет назад появился «последний универсальный общий предок», от которого впоследствии произошли все другие живые организмы.
+      </p>
+      <p>
+        Развитие фотосинтеза позволило живым организмам использовать солнечную энергию напрямую. Это привело к оксигенации атмосферы, начавшейся примерно 2500 млн лет назад, а в верхних слоях — к формированию озонового слоя. Симбиоз мелких клеток с более крупными привёл к развитию сложных клеток — эукариот. Примерно 2,1 млрд лет назад появились многоклеточные организмы, которые продолжали приспосабливаться к окружающим условиям. Благодаря поглощению губительного ультрафиолетового излучения озоновым слоем жизнь смогла начать освоение поверхности Земли
+      </p>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <dl class="dl-horizontal dl-settings">
+            <dt>Экваториальный радиус</dt>
+            <dd>6378,1 км</dd>
+            <br>
+            <dt>Объём (V)</dt>
+            <dd>10,8321·1011 км³</dd>
+            <br>
+            <dt>Масса (m)</dt>
+            <dd>5,9736·1024 кг (3·10-6 M☉)</dd>
+            <br>
+            <dt>Наклон оси</dt>
+            <dd>23°26’21".4119</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="description">
+      <br>
+      <p>
+        Геохимик Франк Кларк вычислил, что земная кора чуть более, чем на 47 % состоит из кислорода. Наиболее распространённые породообразующие минералы земной коры практически полностью состоят из оксидов; суммарное содержание хлора, серы и фтора в породах обычно составляет менее 1 %. Основными оксидами являются кремнезём (SiO2), глинозём (Al2O3), оксид железа (FeO), окись кальция (CaO), окись магния (MgO), оксид калия (K2O) и оксид натрия (Na2O). Кремнезём служит главным образом кислотной средой, формирует силикаты; природа всех основных вулканических пород связана с ним. Из расчётов, основанных на анализе 1 672 видов пород, Кларк сделал вывод, что 99,22 % из них содержат 11 оксидов (таблица справа). Все прочие компоненты встречаются в очень незначительных количествах.
+      </p>
+      <table class="table">
+        <p><strong>Таблица оксидов земной коры Ф.&nbsp;У.&nbsp;Кларка</strong></p>
+        <tbody>
+          <tr>
+            <th>Соединение</th>
+            <th>Формула</th>
+            <th>Процентное содержание</th>
+          </tr>
+          <tr>
+            <td>Оксид кремния(IV)</td>
+            <td>SiO</td>
+            <td>59,71&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид алюминия</td>
+            <td>Al<sub>2</sub>O<sub>3</sub></td>
+            <td>15,41&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид кальция</td>
+            <td>CaO</td>
+            <td>4,90&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид магния</td>
+            <td>MgO</td>
+            <td>4,36&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид натрия</td>
+            <td>Na<sub>2</sub>O</td>
+            <td>3,55&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид железа(II)</td>
+            <td>FeO</td>
+            <td>3,52&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид калия</td>
+            <td>K<sub>2</sub>O</td>
+            <td>2,80&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид железа(III)</td>
+            <td>Fe<sub>2</sub>O<sub>3</sub></td>
+            <td>2,63&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Вода</td>
+            <td>H<sub>2</sub>O</td>
+            <td>1,52&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид титана(IV)</td>
+            <td>TiO<sub>2</sub></td>
+            <td>0,60&nbsp;%</td>
+          </tr>
+          <tr>
+            <td>Оксид фосфора(V)</td>
+            <td>P<sub>2</sub>O<sub>5</sub></td>
+            <td>0,22&nbsp;%</td>
+          </tr>
+          <tr>
+            <th></th>
+            <th>Итого</th>
+            <th>99,22&nbsp;%</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane fade" id="reviews">
+      <br>
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="http://placekitten.com/g/64/64">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Media heading <span class="date-post">22 Марта, 2012</span></h4>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. 
+          <br> <a href="#">Reply</a>
+        </div>
+      </div>
+      <hr>
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="http://placekitten.com/g/64/64">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Media heading <span class="date-post">15 Апреля, 2012</span></h4>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          <br> <a href="#">Reply</a>
+          <hr>
+          <div class="media">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="http://placekitten.com/g/64/64">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading <span class="date-post">16 Апреля, 2012</span></h4>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              <br> <a href="#">Reply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h4>Оставить отзыв</h4>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label for="#" class="col-md-2 control-label">Имя</label>
+          <div class="col-md-4">
+            <input type="text" class="form-control" id="#">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="#" class="col-md-2 control-label">Email</label>
+          <div class="col-md-4">
+            <input type="email" class="form-control" id="#">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="#" class="col-md-2 control-label">Сообщение</label>
+          <div class="col-md-6">
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-md-offset-2 col-md-4">
+            <button type="submit" class="btn btn-default">Отправить</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</article>
+
+<aside class="col-md-3">
+  <div class="new-content-block">
+  <div class="block-header">
+    <h4>Новые товары</h4>
+    <hr>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Уголь древесный</a>
+      </div>
+      $ 4800.89
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Холодильник обратный</a>
+      </div>
+      $ 29.99
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Контейнер алюминиевый</a>
+      </div>
+      $ 189.22
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Сварочные электроды</a>
+      </div>
+      $ 18.11
+    </div>
+  </div>
+  <br>
+  <button class="btn btn-sm btn-default"><i class="icon-arrow-right"></i> Смотреть все товары</button>
+</div>
+  <br>
+  <div class="new-content-block">
+  <div class="block-header">
+    <h4>Лучшие товары</h4>
+    <hr>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Тросы стальные</a>
+      </div>
+      $ 4800.89
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Ветрянные генераторы</a>
+      </div>
+      $ 29.99
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Счетчик СА4У</a>
+      </div>
+      $ 189.22
+    </div>
+  </div>
+  <div class="media">
+    <a class="pull-left thumbnail" href="#">
+      <div class="media-object">
+        <div class="img50"><img src="http://placekitten.com/g/50/50"></div>
+      </div>
+    </a>
+    <div class="media-body">
+      <div class="media-heading">
+        <a href="#">Сварочные электроды</a>
+      </div>
+      $ 18.11
+    </div>
+  </div>
+  <br>
+  <button class="btn btn-sm btn-default"><i class="icon-arrow-right"></i> Смотреть все товары</button>
+</div>
+</aside>
+				</div>
+			</div>
+		</main>
+		<footer role="contentinfo">
+  <div class="container">
+    <div class="row top-footer">
+      <div class="col-md-3 col-sm-6 contacts-f bl">
+        <div class="block-header">
+          <h5>Контакты</h5>
+        </div>
+        <ul class="list-unstyled">
+          <li><i class="icon-phone-sign"> + (373) 780 57 092</i></li>
+          <li><i class="icon-envelope-alt"> magazin@gmail.com</i></li>
+        </ul>
+      </div>
+      <br class="hidden-sm hidden-md hidden-lg">
+      <div class="col-md-3 col-sm-6 categories-f bl">
+        <div class="block-header">
+          <h5>Категории</h5>
+        </div>
+        <ul class="list-unstyled">
+          <li><i class="icon-angle-right"></i> <a href="#">История Земли</a></li>
+          <li><i class="icon-angle-right"></i> <a href="#">Возникновение жизни</a></li>
+          <li><i class="icon-angle-right"></i> <a href="#">Строение Земли</a></li>
+          <li><i class="icon-angle-right"></i> <a href="#">Орбита и вращение Земли</a></li>
+          <li><i class="icon-angle-right"></i> <a href="#">Роль в культуре</a></li>
+        </ul>
+      </div>
+      <br class="hidden-sm hidden-md hidden-lg">
+      <div class="col-md-3 col-sm-6 tags-f bl">
+        <div class="block-header">
+          <h5>Теги</h5>
+        </div>
+        <a href="#"><span class="badge">Земля</span></a>
+        <a href="#"><span class="badge">Планта</span></a>
+        <a href="#"><span class="badge">Люди</span></a>
+        <a href="#"><span class="badge">Жизнь</span></a>
+        <a href="#"><span class="badge">Строение</span></a>
+        <a href="#"><span class="badge">Зарождение</span></a>
+        <a href="#"><span class="badge">Смерть</span></a>
+        <a href="#"><span class="badge">Смерть</span></a>
+        <a href="#"><span class="badge">Смерть</span></a>
+        <a href="#"><span class="badge">Смерть</span></a>
+      </div>
+      <br class="hidden-sm hidden-md hidden-lg">
+      <div class="col-md-3 col-sm-6 posts-f bl">
+        <div class="block-header">
+          <h5>Посты</h5>
+        </div>
+        <div class="media">
+          <div class="media-object pull-left">
+            <i class="icon-twitter"></i>
+          </div>
+          <div class="media-body">
+            <div class="media-heading">
+            </div>
+            @twitteruser Vivamus elit libero, tempus eu dictum at, suscipit id tellus.
+            <h6>about 5 hours ago</h6>
+          </div>
+        </div>
+      </div>
+      <br class="hidden-md hidden-lg">
+    </div>
+  </div>
+</footer>
+	</body>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/vendor/modernizr.js"></script>
+	<script src="js/vendor/polyfill/flexie.js"></script>
+	<script src="js/vendor/fotorama/fotorama.js"></script>
+	<script src="js/vendor/jquery.menu-aim.js"></script>
+	<script src="js/vendor/spinner.js"></script>
+	<!-- bin/jquery.slider.min.js -->
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/jshashtable-2.1_src.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/jquery.numberformatter-1.2.3.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/tmpl.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/jquery.dependClass-0.1.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/draggable-0.1.js"></script>
+	<script type="text/javascript" src="js/vendor/egorkhmelev-jslider/jquery.slider.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/all.js"></script>
+</html>
